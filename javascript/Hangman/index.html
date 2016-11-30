@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Hangman by Karol Brennan</title>
+
+<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="gameboard">
+
+    		<h1>Hangman</h1>
+            <p>Computer will generate a random word. Player attempts to reveal the secret word by guessing which letters are in it. If the guessed letter is not in the word, another limb will be added to the stickman. If the full stickman is revealed before the secret word is revealed the player loses.</p>
+
+            <div id="columns">
+                <div id="left">
+            
+                    <span id="word"></span>
+                    <span id="wordReveal"></span>
+                    <button id="a" type="button">A</button>
+                    <button id="b" type="button">B</button>
+                    <button id="c" type="button">C</button>
+                    <button id="d" type="button">D</button>
+                    <button id="e" type="button">E</button>
+                    <button id="f" type="button">F</button>
+                    <button id="g" type="button">G</button><br />
+                    <button id="h" type="button">H</button>
+                    <button id="i" type="button">I</button>
+                    <button id="j" type="button">J</button>
+                    <button id="k" type="button">K</button>
+                    <button id="l" type="button">L</button>
+                    <button id="m" type="button">M</button>
+                    <button id="n" type="button">N</button><br />
+                    <button id="o" type="button">O</button>
+                    <button id="p" type="button">P</button>
+                    <button id="q" type="button">Q</button>
+                    <button id="r" type="button">R</button>
+                    <button id="s" type="button">S</button>
+                    <button id="t" type="button">T</button>
+                    <button id="u" type="button">U</button><br />
+                    <button id="v" type="button">V</button>
+                    <button id="w" type="button">W</button>
+                    <button id="x" type="button">X</button>
+                    <button id="y" type="button">Y</button>
+                    <button id="z" type="button">Z</button>
+                    <button id="newGame" type="button">New Game</button>
+                </div>
+                
+                <div id="right">
+                </div>
+            </div>
+</div>
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-latest.js"> </script>
+<script src="jquery.js"></script>
+<script src="hangman.js"></script>
+</body>
+</html>

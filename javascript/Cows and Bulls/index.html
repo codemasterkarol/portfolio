@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Karol Brennan: Unit 2 Project</title>
+
+<link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+<div id="container">
+		<div id="header"><a href="index.html"><img src="header.jpg" alt="header" /></a></div>
+        
+        <div id="instructions">        
+                <h2>Gameplay Instructions</h2>
+                <p><strong>Objective:</strong> Guess the randomly generated 4-digit number correctly.</p>
+                
+                <p><strong>Gameplay:</strong> The computer will generate a secret 4-digit number with each digit picked at random and ranging from 0-9, without repetition. <br /><br />
+                The player will then attempt to guess this 4-digit secret number. After each guess, the computer will compare the guess to the secret number and return a combination of Cows or Bulls (or none if you're unlucky).<br /><br />
+                Cow = number is found in secret number, but is not in the correct position.<br />
+                Bull = number is found in secret number, and is in the correct position.</p>          
+                
+                <button id="showGame" type="button">Alright Alright, Let's Play!</button>      
+        </div>
+        
+        
+<div id="gameBlock">
+
+
+                <!-- Display Guesses Here -->        
+                <span id="guesses"></span>
+
+            <span id="secretNumber"></span>
+
+				<!-- Guess Form -->
+				<form id="guessForm" name="guessForm">            
+                <input type="text" size="3" maxlength="1" class="required number nxt" id="1">
+                <input type="text" size="3" maxlength="1" class="required number nxt" id="2">
+                <input type="text" size="3" maxlength="1" class="required number nxt" id="3">
+                <input type="text" size="3" maxlength="1" class="required number nxt" id="4"><br /><br />
+                <button id="guess" name="guess" type="button">Guess!</button>            
+				</form>
+
+   
+        <!-- Hidden Until Player Wins -->
+        <div id="winnerBlock">
+            <span id="winner"></span>
+        </div>    
+        
+
+		<!-- Reset Button -->
+        <div id="resetBlock">
+            
+            <form id="resetForm">
+                <button id="resetGame" name="resetGame" type="button">Play Again!</button>
+            </form>
+        </div>
+
+</div>
+
+</div>
+
+<!-- Stored HIDDEN Display of Small Cows and Bulls for Guess Output with jQuery -->
+<div id="hidden">
+
+<span id="cows"><img src="sm_cow.jpg" alt="cow" /></span>
+<span id="bulls"><img src="sm_bull.jpg" alt="bull" /></span>
+
+</div>
+
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-latest.js"> </script>
+<!-- jQuery validation -->
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.min.js"></script>
+<!-- Script Source -->
+<script src="bulls.js"> </script>
+
+
+</body>
+</html>

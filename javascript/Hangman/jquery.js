@@ -1,0 +1,2 @@
+// Set random secret words
+	var randomWords = ["flower", "purple", "lemonade", "penguin", "rainbow", "zebra", "quest", "rhythm", "galaxy", "haphazard", "zephyr", "vortex", "zombie", "revolution", "guitar", "mafia", "redemption", "prototype", "puzzle", "remote", "carriage", "bookcase", "refrigerator", "microwave", "lantern", "globe", "world", "expectations", "dance", "fable", "pirates", "skeleton", "kitten", "keyboard"];

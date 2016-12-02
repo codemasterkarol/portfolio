@@ -1,8 +1,10 @@
 # Portfolio
 This is simply a dump of a bunch of my work from 2004-2016. 
 
-- Branding
-  - Includes logos and header graphics
+- Animations and Flash Games
+- Branding (logos, header graphics)
+- Documentation
+  - Various documents from projects, like proposals, personas, analyses, etc.
 - Illustrations
   - All illustrations created in Adobe Illustrator
 - JavaScript
@@ -14,3 +16,4 @@ This is simply a dump of a bunch of my work from 2004-2016.
   - Mostly stuff I designed for my wedding
 - Web
   - Various layout designs / screenshots
+- Wireframes
